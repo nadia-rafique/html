@@ -7,3 +7,8 @@
 .mp{
     border: 2px solid black;
 }
+.image{
+    border: 2px solid darkgray;
+    width: 80%;
+    height: 50%;
+}
