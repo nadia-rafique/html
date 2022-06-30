@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <form action="#">
+            <fieldset>
+               <legend>Sign up</legend>
+               <div class="mt"> 
+                <label>First Name: </label>
+                <input type="text" name="fname" pattern="[a-z][A-Z]" placeholder="Enter Your Name Here..." required> 
+               </div>
+               <div class="mt">
+                <label>Last Name:</label>
+                <input type="text" name="lname" pattern="[a-z][A-Z]" placeholder="Enter Your Father Here..." required>
+               </div>
+               <div class="mt">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email..." required>
+               </div>
+               <div class="mt">
+                <label for="phonenum">Phone Number: </label>
+                <input type="number" name="pnum" id="pnum" placeholder="Enter Your Number..." required>
+               </div>
+               <div class="mt">
+                <label for="password">Enter Your Password:</label>
+                <input type="password" name="password" id="password" placeholder="Password here.." required>
+               </div>
+              <div class="mt">
+                <label for="cpassword">Confirm your Password:</label>
+                <input type="cpassword" name="cpassword" id="cpassword" placeholder="Confirm Your Password" required> 
+              </div>  
+                <button class="btn" style="width: 20%; height:40px;">Sign up</button>
+            </fieldset>
+         </form>
+    </section>
+</body>
+</html>
