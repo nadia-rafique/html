@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--Basic Table-->
     <table>
+        <caption>School Timetable</caption>
         <colgroup>
             <col>
             <col>
@@ -19,57 +21,97 @@
             <col width="42px">
             <col width="42px">
           </colgroup>
+        <thead>
+            <tr>
+                <td>&nbsp;</td>
+                <th>Mon</th>
+                <th>Tues</th>
+                <th>Wed</th>
+                <th>Thurs</th>
+                <th>Fri</th>
+                <th>Sat</th>
+                <th>Sun</th>
+              </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1st period</th>
+                <td>English</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>German</td>
+                <td>Dutch</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th>2nd period</th>
+                <td>English</td>
+                <td>English</td>
+                <td>&nbsp;</td>
+                <td>German</td>
+                <td>Dutch</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th>3rd period</th>
+                <td>&nbsp;</td>
+                <td>German</td>
+                <td>&nbsp;</td>
+                <td>German</td>
+                <td>Dutch</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th>4th period</th>
+                <td>&nbsp;</td>
+                <td>English</td>
+                <td>&nbsp;</td>
+                <td>English</td>
+                <td>Dutch</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+        </tbody>
+        <tfoot>
         <tr>
-          <td>&nbsp;</td>
-          <th>Mon</th>
-          <th>Tues</th>
-          <th>Wed</th>
-          <th>Thurs</th>
-          <th>Fri</th>
-          <th>Sat</th>
-          <th>Sun</th>
+            <td colspan="8">Weekely Timetable</td>
         </tr>
-        <tr>
-          <th>1st period</th>
-          <td>English</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>German</td>
-          <td>Dutch</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <th>2nd period</th>
-          <td>English</td>
-          <td>English</td>
-          <td>&nbsp;</td>
-          <td>German</td>
-          <td>Dutch</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <th>3rd period</th>
-          <td>&nbsp;</td>
-          <td>German</td>
-          <td>&nbsp;</td>
-          <td>German</td>
-          <td>Dutch</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <th>4th period</th>
-          <td>&nbsp;</td>
-          <td>English</td>
-          <td>&nbsp;</td>
-          <td>English</td>
-          <td>Dutch</td>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
+        </tfoot>
       </table>
-  
+
+      <!--Nested Table-->
+      <table border="2px solid black">
+        <caption>Nested Tables</caption>
+        <thead>
+            <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <table border="1px solid black">
+                        <tr>
+                            <td>Cel 1</td>
+                            <td>Cel 2</td>
+                            <td>Cel 3</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Cel 4 </td>
+                <td>Cel 5</td>
+            </tr> 
+            <tr>
+                <td>Cel 6</td>
+                <td>Cel 7</td>
+                <td>Cel 8</td>
+            </tr>
+        </tbody>
+      </table>
 </body>
 </html>
