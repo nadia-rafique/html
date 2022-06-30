@@ -57,3 +57,15 @@ table {
  fieldset{
     border-radius: 10px;
  }
+ .aud{
+    margin-top: 10px;
+    margin-left: 250px;
+ }
+ .vid{
+    margin-top: 10px;
+    margin-left: 180px;
+ }
+ .ifr{
+    margin-top: 10px;
+    margin-left: 100px;
+ }
